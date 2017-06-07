@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Eli">
+    <meta name="keywords" content="Eli">
+    <meta name="author" content="Eli de Haas">
+    <title>Eli</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" language="JavaScript">
+      function set_body_height() { // set body height = window height
+        $('body').height($(window).height());
+      }
+      $(document).ready(function() {
+        $(window).bind('resize', set_body_height);
+        set_body_height();
+      });
+    </script>
+  </head>
+
+  <body>
+
+    <!--
+    <header>
+      <div class="container">
+        <div id="naam">
+          <h1>Eli</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="fotos.html">fotos</a></li>
+            <li><a href="tekeningen.html">tekeningen</a></li>
+            <li><a href="videos.html">videos</a></li>
+            <li><a href="@.html">@</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  -->
+  <welcome>
+    <div class="container">
+      <div id="naam">
+        <h1>Eli</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="fotos.html">fotos</a></li>
+          <li><a href="tekeningen.html">tekeningen</a></li>
+          <li><a href="videos.html">videos</a></li>
+          <li><a href="@.html">@</a></li>
+        </ul>
+      </nav>
+    </div>
+  </welcome>
+  </body>
+</html>
